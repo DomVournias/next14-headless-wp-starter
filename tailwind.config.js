@@ -12,11 +12,13 @@ module.exports = {
         accent: "#",
         secondary: "#",
       },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+      fontSize: {
+          fsXL: '100px',
+          fsLG: '40px',
+          fsMD: '31px',
+          fsBS: '30px',
+          fsSM: '23px',
+        },
     },
   },
   plugins: [],
