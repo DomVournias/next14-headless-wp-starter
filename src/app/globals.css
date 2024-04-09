@@ -31,3 +31,9 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer components {
+  .container {
+   @apply relative flex max-w-7xl justify-center items-center m-auto z-10;
+  }
+}
