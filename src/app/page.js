@@ -13,16 +13,9 @@ export const metadata = {
 
 export default async function Home() {
   //* Fetches the WP data
-  const res = await fetchHomeSections();
+  // const res = await fetchHomeSections();
 
-  const sections = res.data.sectionCategory.sections.nodes;
-
-  //* Gets every section by slug
-  // const getSectionBySlug = (slug) => {
-  //   const section = sections.find((item) => item.slug === slug);
-
-  //   return section[slug];
-  // };
+  // const sections = res.data.sectionCategory.sections.nodes;
   return (
     <>
       <h2>Hello world!</h2>
